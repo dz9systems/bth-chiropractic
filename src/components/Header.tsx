@@ -1,10 +1,19 @@
 import React, { useState } from 'react';
 import { PhoneIcon, Menu, X } from 'lucide-react';
 import { Logo } from './Logo';
-export const Header = () => {
+export const Header = ({
+  showAlternative,
+  setShowAlternative
+}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+  const handleVersionChange = version => {
+    setShowAlternative(version === 'alternative');
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    }
   };
   return <header className="sticky top-0 z-50 w-full bg-white shadow-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -33,6 +42,16 @@ export const Header = () => {
                 <a href="#contact" className="text-gray-700 hover:text-purple-700 transition-colors">
                   Contact
                 </a>
+              </li>
+              <li className="border-l pl-6 border-gray-300">
+                <button onClick={() => handleVersionChange('original')} className={`${!showAlternative ? 'text-purple-700 font-medium' : 'text-gray-700'} hover:text-purple-700 transition-colors`}>
+                  Version 1
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleVersionChange('alternative')} className={`${showAlternative ? 'text-purple-700 font-medium' : 'text-gray-700'} hover:text-purple-700 transition-colors`}>
+                  Version 2
+                </button>
               </li>
             </ul>
           </nav>
@@ -78,6 +97,16 @@ export const Header = () => {
                   <a href="#contact" className="block text-lg text-gray-700 hover:text-purple-700 transition-colors" onClick={toggleMenu}>
                     Contact
                   </a>
+                </li>
+                <li className="pt-4 mt-4 border-t border-gray-200">
+                  <button onClick={() => handleVersionChange('original')} className={`block text-lg ${!showAlternative ? 'text-purple-700 font-medium' : 'text-gray-700'} hover:text-purple-700 transition-colors`}>
+                    Version 1
+                  </button>
+                </li>
+                <li>
+                  <button onClick={() => handleVersionChange('alternative')} className={`block text-lg ${showAlternative ? 'text-purple-700 font-medium' : 'text-gray-700'} hover:text-purple-700 transition-colors`}>
+                    Version 2
+                  </button>
                 </li>
               </ul>
             </nav>
