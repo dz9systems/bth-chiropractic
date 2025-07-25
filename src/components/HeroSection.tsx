@@ -16,8 +16,8 @@ export const HeroSection = () => {
     };
   }, []);
   // Video sources
-  const desktopVideo = 'https://firebasestorage.googleapis.com/v0/b/smart-lead-agent-9f41e.appspot.com/o/bth-chiropractic.mp4?alt=media&token=7b782582-c3a6-4f87-afbf-9f3e1a1f4235';
-  const mobileVideo = 'https://firebasestorage.googleapis.com/v0/b/smart-lead-agent-9f41e.appspot.com/o/bth-chiropractic-mobile.mp4?alt=media&token=7b782582-c3a6-4f87-afbf-9f3e1a1f4235';
+  const desktopVideo = 'https://firebasestorage.googleapis.com/v0/b/smart-lead-agent-9f41e.appspot.com/o/bth-web.mp4?alt=media&token=798d4d70-50a7-4313-92a9-4b8493a19fd9';
+  const mobileVideo = 'https://firebasestorage.googleapis.com/v0/b/smart-lead-agent-9f41e.appspot.com/o/mobile-video.mp4?alt=media&token=3fdb624f-ec70-4512-a1a5-49182b0b6c14';
   // Fallback images
   const desktopFallback = 'https://firebasestorage.googleapis.com/v0/b/smart-lead-agent-9f41e.appspot.com/o/bth-chiropractic.jpg?alt=media&token=7b782582-c3a6-4f87-afbf-9f3e1a1f4235';
   const mobileFallback = 'https://firebasestorage.googleapis.com/v0/b/smart-lead-agent-9f41e.appspot.com/o/bth-chiropractic-mobile.jpg?alt=media&token=7b782582-c3a6-4f87-afbf-9f3e1a1f4235';
