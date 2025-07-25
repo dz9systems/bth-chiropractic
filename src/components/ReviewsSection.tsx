@@ -46,7 +46,7 @@ export const ReviewsSection = () => {
             </div>
           </div>
         </div>
-        <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-4xl mx-auto px-12">
           <div className="overflow-hidden">
             <div className="flex transition-transform duration-300 ease-in-out" style={{
             transform: `translateX(-${currentIndex * 100}%)`
@@ -67,10 +67,10 @@ export const ReviewsSection = () => {
                 </div>)}
             </div>
           </div>
-          <button onClick={prevReview} className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-white rounded-full p-2 shadow-md hover:bg-gray-100" aria-label="Previous review">
+          <button onClick={prevReview} className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-0 bg-white rounded-full p-3 shadow-md hover:bg-gray-100" aria-label="Previous review">
             <ChevronLeft className="w-6 h-6 text-gray-700" />
           </button>
-          <button onClick={nextReview} className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 bg-white rounded-full p-2 shadow-md hover:bg-gray-100" aria-label="Next review">
+          <button onClick={nextReview} className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-0 bg-white rounded-full p-3 shadow-md hover:bg-gray-100" aria-label="Next review">
             <ChevronRight className="w-6 h-6 text-gray-700" />
           </button>
           <div className="flex justify-center mt-6 space-x-2">

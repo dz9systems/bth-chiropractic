@@ -1,10 +1,13 @@
 import React from 'react';
+import { Logo } from './Logo';
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
   return <footer className="bg-gray-900 text-white py-10">
       <div className="container mx-auto px-4">
         <div className="text-center">
-          <h2 className="text-2xl font-bold mb-6">BTH Chiropractic</h2>
+          <div className="flex justify-center mb-6">
+            <Logo size="large" color="#7e22ce" textColor="#ffffff" />
+          </div>
           <div className="mb-8">
             <a href="#book" className="inline-block bg-purple-700 text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-purple-800 transition-colors">
               Schedule an Appointment

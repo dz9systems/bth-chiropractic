@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 export const HeroSection = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  // Check if screen is mobile sized on component mount and window resize
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    // Initial check
+    checkScreenSize();
+    // Add event listener for window resize
+    window.addEventListener('resize', checkScreenSize);
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', checkScreenSize);
+    };
+  }, []);
+  // Video sources
+  const desktopVideo = 'https://firebasestorage.googleapis.com/v0/b/smart-lead-agent-9f41e.appspot.com/o/bth-chiropractic.mp4?alt=media&token=7b782582-c3a6-4f87-afbf-9f3e1a1f4235';
+  const mobileVideo = 'https://firebasestorage.googleapis.com/v0/b/smart-lead-agent-9f41e.appspot.com/o/bth-chiropractic-mobile.mp4?alt=media&token=7b782582-c3a6-4f87-afbf-9f3e1a1f4235';
+  // Fallback images
+  const desktopFallback = 'https://firebasestorage.googleapis.com/v0/b/smart-lead-agent-9f41e.appspot.com/o/bth-chiropractic.jpg?alt=media&token=7b782582-c3a6-4f87-afbf-9f3e1a1f4235';
+  const mobileFallback = 'https://firebasestorage.googleapis.com/v0/b/smart-lead-agent-9f41e.appspot.com/o/bth-chiropractic-mobile.jpg?alt=media&token=7b782582-c3a6-4f87-afbf-9f3e1a1f4235';
   return <section className="relative w-full bg-gray-100">
       <div className="absolute inset-0 z-0">
-        {/* Video background */}
+        {/* Video background with responsive source */}
         <video className="w-full h-full object-cover" autoPlay muted loop playsInline>
-          <source src="/videos/Video_for_Chiropractic_Website.mp4" type="video/mp4" />
+          <source src={isMobile ? mobileVideo : desktopVideo} type="video/mp4" />
           {/* Fallback image if video doesn't load */}
-          <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Chiropractor performing treatment on a patient's back" className="w-full h-full object-cover" />
+          <img src={isMobile ? mobileFallback : desktopFallback} alt="Chiropractor performing treatment on a patient" className="w-full h-full object-cover" />
         </video>
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
