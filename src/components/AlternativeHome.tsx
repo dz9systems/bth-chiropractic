@@ -32,7 +32,7 @@ export const AlternativeHome = ({
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden">
-                <img src="/back-exam.jpg" alt="Chiropractor examining patient's back" className="w-full h-auto object-cover rounded-lg" />
+                <img src="/neck-crack.jpg" alt="Chiropractor examining patient's back" className="w-full h-auto object-cover rounded-lg" />
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ export const AlternativeHome = ({
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="rounded-lg overflow-hidden">
-                <img src="/neck-adjustmen.jpg" alt="Chiropractor performing neck adjustment" className="w-full h-auto object-cover rounded-lg" />
+                <img src="/neck-adjustment.jpg" alt="Chiropractor performing neck adjustment" className="w-full h-auto object-cover rounded-lg" />
               </div>
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800">
@@ -175,7 +175,7 @@ export const AlternativeHome = ({
               </div>
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div className="h-48 overflow-hidden">
-                  <img src="/back-crack.jpg" alt="Soft Tissue Therapy" className="w-full h-full object-cover" />
+                  <img src="/soft-tissue.jpg" alt="Soft Tissue Therapy" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
@@ -203,7 +203,7 @@ export const AlternativeHome = ({
               </div>
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div className="h-48 overflow-hidden">
-                  <img src="data:image/jpeg;base64,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" alt="Posture Correction" className="w-full h-full object-cover" />
+                  <img src="spinal-twist2.jpg" alt="Posture Correction" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
@@ -217,7 +217,7 @@ export const AlternativeHome = ({
               </div>
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div className="h-48 overflow-hidden">
-                  <img src="https://images.unsplash.com/photo-1581056771107-24247a734e0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Nutritional Guidance" className="w-full h-full object-cover" />
+                  <img src="/nutritional-guidance.jpeg" alt="Nutritional Guidance" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
@@ -368,7 +368,7 @@ export const AlternativeHome = ({
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden">
-                <img src="/neck-crack.jpg" alt="Professional chiropractor performing neck adjustment" className="w-full h-auto object-cover rounded-lg" />
+                <img src="/nurse-doctor.avif" alt="Professional chiropractor performing neck adjustment" className="w-full h-auto object-cover rounded-lg" />
               </div>
             </div>
           </div>
@@ -409,7 +409,7 @@ export const AlternativeHome = ({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm">
                 <div className="h-48 overflow-hidden">
-                  <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Spinal health tips" className="w-full h-full object-cover" />
+                  <img src="/spinal-health.jpeg" alt="Spinal health tips" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
@@ -426,7 +426,7 @@ export const AlternativeHome = ({
               </div>
               <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm">
                 <div className="h-48 overflow-hidden">
-                  <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Desk ergonomics" className="w-full h-full object-cover" />
+                  <img src="/desktop-ergonomics.webp" alt="Desk ergonomics" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
