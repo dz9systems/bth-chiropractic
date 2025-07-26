@@ -32,7 +32,7 @@ export const AlternativeHome = ({
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden">
-                <img src="/neck-crack.jpg" alt="Chiropractor examining patient's back" className="w-full h-auto object-cover rounded-lg" />
+                <img src="/bth-chiropractic/neck-crack.jpg" alt="Chiropractor examining patient's back" className="w-full h-auto object-cover rounded-lg" />
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ export const AlternativeHome = ({
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="rounded-lg overflow-hidden">
-                <img src="/neck-adjustment.jpg" alt="Chiropractor performing neck adjustment" className="w-full h-auto object-cover rounded-lg" />
+                <img src="/bth-chiropractic/neck-adjustment.jpg" alt="Chiropractor performing neck adjustment" className="w-full h-auto object-cover rounded-lg" />
               </div>
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-800">
@@ -161,7 +161,7 @@ export const AlternativeHome = ({
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div className="h-48 overflow-hidden">
-                  <img src="/back-crack1.jpg" alt="Spinal Adjustment" className="w-full h-full object-cover" />
+                  <img src="/bth-chiropractic/back-crack1.jpg" alt="Spinal Adjustment" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
@@ -175,7 +175,7 @@ export const AlternativeHome = ({
               </div>
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div className="h-48 overflow-hidden">
-                  <img src="/soft-tissue.jpg" alt="Soft Tissue Therapy" className="w-full h-full object-cover" />
+                  <img src="/bth-chiropractic/soft-tissue.jpg" alt="Soft Tissue Therapy" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
@@ -189,7 +189,7 @@ export const AlternativeHome = ({
               </div>
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div className="h-48 overflow-hidden">
-                  <img src="/shoulder.jpg" alt="Rehabilitation Exercises" className="w-full h-full object-cover" />
+                  <img src="/bth-chiropractic/shoulder.jpg" alt="Rehabilitation Exercises" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
@@ -203,7 +203,7 @@ export const AlternativeHome = ({
               </div>
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div className="h-48 overflow-hidden">
-                  <img src="spinal-twist2.jpg" alt="Posture Correction" className="w-full h-full object-cover" />
+                  <img src="/bth-chiropractic/spinal-twist2.jpg" alt="Posture Correction" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
@@ -217,7 +217,7 @@ export const AlternativeHome = ({
               </div>
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div className="h-48 overflow-hidden">
-                  <img src="/nutritional-guidance.jpeg" alt="Nutritional Guidance" className="w-full h-full object-cover" />
+                  <img src="/bth-chiropractic/nutritional-guidance.jpeg" alt="Nutritional Guidance" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
@@ -368,7 +368,7 @@ export const AlternativeHome = ({
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden">
-                <img src="/nurse-doctor.avif" alt="Professional chiropractor performing neck adjustment" className="w-full h-auto object-cover rounded-lg" />
+                <img src="/bth-chiropractic/nurse-doctor.avif" alt="Professional chiropractor performing neck adjustment" className="w-full h-auto object-cover rounded-lg" />
               </div>
             </div>
           </div>
@@ -409,7 +409,7 @@ export const AlternativeHome = ({
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm">
                 <div className="h-48 overflow-hidden">
-                  <img src="/spinal-health.jpeg" alt="Spinal health tips" className="w-full h-full object-cover" />
+                  <img src="/bth-chiropractic/spinal-health.jpeg" alt="Spinal health tips" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
@@ -426,7 +426,7 @@ export const AlternativeHome = ({
               </div>
               <div className="bg-gray-50 rounded-lg overflow-hidden shadow-sm">
                 <div className="h-48 overflow-hidden">
-                  <img src="/desktop-ergonomics.webp" alt="Desk ergonomics" className="w-full h-full object-cover" />
+                  <img src="/bth-chiropractic/desktop-ergonomics.webp" alt="Desk ergonomics" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-3 text-gray-800">
