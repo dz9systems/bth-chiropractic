@@ -1,5 +1,6 @@
 {
   "name": "magic-patterns-vite-template",
+  "homepage":"https://github.com/dz9systems/bth-chiropractic",
   "version": "0.0.1",
   "private": true,
   "type": "module",
